@@ -7,6 +7,8 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://nathanmauro.io`,
+
     title: `Hello Friend`,
     description: `A simple starter for Gatsby. That's it.`,
     copyrights: '',
@@ -36,6 +38,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `babel-preset-gatsby`,
     `gatsby-plugin-react-helmet`,
     {
