@@ -81,6 +81,11 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [
+    'nathan mauro',
+    'nate',
+    'mauro',
+    'nathan',
+    'nate mauro',
     'gatsby',
     'minimal',
     'starter',
